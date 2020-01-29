@@ -1,5 +1,5 @@
 # Stats
-Copyright (c) 2019 Bart Massey
+Copyright (c) 2019 Jeff Austin <jja6@pdx.edu>
 
 This program computes a basic statistic. Its input is
 taken from `stdin`, and must consist of floating-point
@@ -15,6 +15,11 @@ text of a floating-point number on stdout.
 
 The various statistics are implemented in the `stats`
 library crate, which can be used by other programs as well.
+
+The main.rs files and the function signatures in the lib.rs files are 
+Bart Massey's work (Senior Instructor of computer science at Portland
+State University). http://web.cecs.pdx.edu/~bart/  
+Jeff Austin wrote the code for the function implementations.
 
 ## Build and Run
 
@@ -33,4 +38,3 @@ Run `cargo test` to do some simple testing.
 This program is licensed under the "MIT License".  Please
 see the file `LICENSE` in the source distribution of this
 software for license terms.
-
